@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/jamsi/abn_search"
   s.summary     = "ABNSearch library for Australian businesses."
   s.description = "A simple ABN search library for validating and obtaining ABN details from the Australian Business Register."
-  s.rubyforge_project = "abn_search"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
